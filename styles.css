@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@200;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Barlow", sans-serif;
+}
+p {
+  font-weight: 200;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  border: 2px solid red;
+  width: 1440px;
+  margin: auto;
+}
+
+/* Media Quaries for various devices */
+@media (max-width: 1440px) and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    margin: auto;
+  }
+}
+@media (max-width: 1280px) and (min-width: 1024px) {
+  .container {
+    width: 1024px;
+    margin: auto;
+  }
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+  .container {
+    width: 768px;
+    margin: auto;
+  }
+}
+@media (max-width: 768px) and (min-width: 580px) {
+  .container {
+    width: 580px;
+    margin: auto;
+  }
+}
+@media (max-width: 580px) and (min-width: 375px) {
+  .container {
+    width: 375px;
+    margin: auto;
+  }
+}
